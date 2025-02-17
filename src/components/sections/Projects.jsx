@@ -128,17 +128,10 @@ const Projects = () => {
   </ToggleButton>
   <Divider />
   <ToggleButton
-    active={toggle === "web app"}
-    onClick={() => setToggle("web app")}
+    active={toggle === "others"}
+    onClick={() => setToggle("others")}
   >
-    Web App
-  </ToggleButton>
-  <Divider />
-  <ToggleButton
-    active={toggle === "mobile app"}
-    onClick={() => setToggle("mobile app")}
-  >
-    Mobile App
+    Others
   </ToggleButton>
 </ToggleButtonGroup>
 
