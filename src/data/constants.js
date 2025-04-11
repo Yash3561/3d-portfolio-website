@@ -335,6 +335,21 @@ export const skills = [
 export const experiences = [
   {
     "id": 0,
+    "img": "https://futuretechnologies.njit.edu/sites/futuretechnologies/files/njit%20logo_0.png",
+    "role": "Research Assistant",
+    "company": "New Jersey Institute of Technology",
+    "date": "January 2025 – Present",
+    "desc": "Spearheaded time-series forecasting research using LLMs for solar flare prediction, achieving >90% accuracy with the FlarePatch deep learning model, and co-authored papers targeting ICTAI 2025 and ICMLA 2025 using explainable AI techniques (SHAP, LIME).",
+    "skills": [
+      "Deep Learning",
+      "Explainable AI",
+      "Time-Series Forecasting",
+      "Research & Publication"
+    ],
+    "doc": "#"
+  },
+  {
+    "id": 1,
     "img": science,
     "role": "Volunteer",
     "company": "Students 2 Science",
@@ -349,7 +364,7 @@ export const experiences = [
     "doc": "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/students2science_certificate.jpeg"
   },
     {
-      "id": 1,
+      "id": 2,
       "img": "https://imgs.search.brave.com/iXkCxQXX4VRjhka7hxikJ2Jmk5kdFMx69e99-R-o7hg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly96ZW5w/cm9zcGVjdC1wcm9k/dWN0aW9uLnMzLmFt/YXpvbmF3cy5jb20v/dXBsb2Fkcy9waWN0/dXJlcy82NmFjZGMw/MjM0MzdkOTAwMDE1/Zjg2MTAvcGljdHVy/ZQ",
       "role": "Mobile Application Developer Intern",
       "company": "Toshal Infotech",
@@ -365,7 +380,7 @@ export const experiences = [
     },
     
     {
-      "id": 2,
+      "id": 3,
       "img": "https://imgs.search.brave.com/zM7iJI75WIOOclUYWmO6sUg93eFbOI2bzTA-MAKJ8fY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE0Lzg1/L2Y3LzE0ODVmNzQ1/NzQ4YjYwZjJkNmY2/NjQ4OTFjMDdhNjAz/LmpwZw",
       "role": "Internshala Student Partner",
       "company": "Internshala",
@@ -381,7 +396,7 @@ export const experiences = [
     },
 
     {
-      "id": 3,
+      "id": 4,
       "img": octacore,
       "role": "Android Developer Intern",
       "company": "Octacore Technologies",
@@ -403,7 +418,7 @@ export const education = [
     img: "https://futuretechnologies.njit.edu/sites/futuretechnologies/files/njit%20logo_0.png",
     school: "New Jersey Institute of Technology, New Jersey",
     date: "Sep 2024 - May 2026",
-    grade: "3.7/4 GPA",
+    grade: "3.67/4 GPA",
     desc: "I am currently pursuing a Master's degree in Artificial Intelligence at New Jersey Institute of Technology, New Jersey. I have completed first semester and have a GPA of 3.7/4. I have taken courses of Deep Learning, Natural Language Processing, Big Data, Artificial Intelligence, Machine Learning, Data Mining. I am also a member of the Google Developers Student Club (GDSC) at NJIT, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Master of Science - MS, Artificial Intelligence",
   },
